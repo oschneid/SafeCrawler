@@ -1,0 +1,94 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4F01DE4E171A2B5B002D2C9F /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = test.html; path = ../test.html; sourceTree = SOURCE_ROOT; };
+		4F01DFFA171A4B6F002D2C9F /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		4F18A18C171C786C0013043D /* targets.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = targets.js; sourceTree = "<group>"; };
+		4F18A18D171C78770013043D /* visualizations.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = visualizations.js; sourceTree = "<group>"; };
+		4F18A18E171C787F0013043D /* safecrawl.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = safecrawl.js; sourceTree = "<group>"; };
+		4F18A1D1171C7E710013043D /* util.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = util.js; sourceTree = "<group>"; };
+		4F18A73F171E02F70013043D /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		4FD7B779171A069D003ED13D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4FD7B77A171A069D003ED13D /* manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = manifest.json; sourceTree = "<group>"; };
+		4FD7B77B171A069D003ED13D /* popup.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		4FD7B77C171A069D003ED13D /* popup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4FD7B76A171A0679003ED13D = {
+			isa = PBXGroup;
+			children = (
+				4F01DFFA171A4B6F002D2C9F /* styles.css */,
+				4F01DE4E171A2B5B002D2C9F /* test.html */,
+				4FD7B779171A069D003ED13D /* icon.png */,
+				4FD7B77A171A069D003ED13D /* manifest.json */,
+				4FD7B77B171A069D003ED13D /* popup.html */,
+				4FD7B77C171A069D003ED13D /* popup.js */,
+				4F18A18C171C786C0013043D /* targets.js */,
+				4F18A18D171C78770013043D /* visualizations.js */,
+				4F18A18E171C787F0013043D /* safecrawl.js */,
+				4F18A1D1171C7E710013043D /* util.js */,
+				4F18A73F171E02F70013043D /* background.js */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		4FD7B76C171A0679003ED13D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4FD7B76F171A0679003ED13D /* Build configuration list for PBXProject "safecrawl" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 4FD7B76A171A0679003ED13D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4FD7B76D171A0679003ED13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		4FD7B76E171A0679003ED13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FD7B76F171A0679003ED13D /* Build configuration list for PBXProject "safecrawl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD7B76D171A0679003ED13D /* Debug */,
+				4FD7B76E171A0679003ED13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FD7B76C171A0679003ED13D /* Project object */;
+}

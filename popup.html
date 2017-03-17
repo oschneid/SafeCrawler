@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <title>SafeCrawl</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+	
+	<link href="styles.css" rel="stylesheet">
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+	   -->
+    <script src="targets.js"></script>
+	<script src="visualizations.js"></script>
+
+  </head>
+  <body>
+  <p><b>SafeCrawler</b> is a Chrome extension that uses affective visualizations to keep websurfers safe.
+  It highlights unsafe HTML elements in a way to invoke an emotional reponse. Right now it is experimental.
+  </p>
+  
+  <p>To use, select which items have which displays below.
+  Then, <b>refresh the page</b> to ensure that changes take effect.
+  </p>
+  <hr>
+  <div id="settingspanel"> 
+  </div>
+  </body>
+  <script src="popup.js"></script>
+</html>
+
+

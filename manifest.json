@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+
+  "name": "SafeCrawler",
+  "description": "This extension uses affective visualizations to keep websurfers safe. It is my final project for CPSC538W. Author: Oliver Schneider 2013.",
+  "version": "1.2",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+	"default_title": "SafeCrawler"
+  },
+  
+  "content_scripts": [
+	{
+		"matches": ["*://*/*"],
+		"css": ["styles.css"],
+		"js": ["util.js", "targets.js", "visualizations.js", "safecrawl.js"],
+		"all_frames": true,
+		"run_at":"document_idle",
+		"allframes":true
+	}
+  ],
+  
+  "permissions": [
+	"tabs"
+  ],
+  
+  "background": {
+	"scripts": ["background.js"]
+	},
+	
+	"web_accessible_resources": [
+		"images/EvilDude1.png",
+		"images/EvilDude2.png"
+	]
+  
+}

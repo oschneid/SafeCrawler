@@ -1,0 +1,28 @@
+.overlay
+{
+	width:10px;
+	height:10px;
+	position:fixed;
+	opacity:0.8;
+	z-index=5;
+	pointer-events:none;
+}
+
+
+.globalcanvas
+{
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	position:fixed;
+	opacity:1;
+	z-index=400;
+	pointer-events:none;
+}
+
+label
+{
+	display:block;
+	text-align:center;
+}
